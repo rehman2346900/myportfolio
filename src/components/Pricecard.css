@@ -1,0 +1,62 @@
+.pricing{
+  padding: 6rem 1rem;
+}
+
+.card-container{
+  max-width: 1140px;
+  margin:auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.pricing-card {
+  border: 1px solid lightgray;
+  text-align: center;
+}
+.pricing-card:hover{
+  background-color: #1e1e1e;
+}
+.pricing-card-header {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.pricing-card-header h3 {
+  margin: 0;
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+}
+
+.pricing-card-price {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.pricing-card-features {
+  list-style: none;
+  padding: 20px;
+}
+.pricing-card-features li{
+ color: white;
+ padding: 9px 0;
+}
+
+.pricing-card-cta {
+  background-color: lightblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 740px){
+  .card-container{
+    max-width: 90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
+}
